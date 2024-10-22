@@ -13,6 +13,7 @@ public:
     CSZNode*     get_right( ) const;
 
     void write( std::ostream& fout ) const;
+    bool operator < (const CSZNode& op2) const;
 
 private:
     CityStateZip payload;
