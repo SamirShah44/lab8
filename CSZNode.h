@@ -6,11 +6,11 @@
 class CSZNode {
 public:
     CSZNode( const CityStateZip& data ) : payload{data} {};
-    void         set_left( CSZNode* new_left );
-    void         set_right( CSZNode* new_right );
-    CityStateZip get_data( ) const;
-    CSZNode*     get_left( ) const;
-    CSZNode*     get_right( ) const;
+    void         set_left( CSZNode* new_left ) { this->left = new_left; }
+    void         set_right( CSZNode* new_right ) { this->right = new_right; }
+    CityStateZip get_data( ) const { return payload; }
+    CSZNode*     get_left( ) const { return this->left; }
+    CSZNode*     get_right( ) const { return this->right; }
 
     void write( std::ostream& fout ) const;
     bool operator < (const CSZNode& op2) const;

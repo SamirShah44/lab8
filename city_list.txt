@@ -5,3 +5,16 @@ Jacksonville,Florida,32073
 Madison,Wisconsin,53532
 Lubbock,Texas,79382
 San Diego,California,91902
+Anchorage,Alaska,99501
+Zebulon,North Carolina,27597
+Denver,Colorado,80201
+Seattle,Washington,98101
+Miami,Florida,33101
+Little Rock,Arkansas,72201
+New Orleans,Louisiana,70112
+Austin,Texas,73301
+Phoenix,Arizona,85001
+Boston,Massachusetts,02101
+Nashville,Tennessee,37201
+Chicago,Illinois,60601
+Los Angeles,California,90001
